@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    font: 500 15px 'Roboto', sans-serif;
+    background: #f0f0f5;
+    -webkit-font-smoothing: antialiased;
+}
+
+textarea, button {
+    font: 500 15px 'Roboto', sans-serif;
+}
+
+.material-icons {
+    display: inline-flex;
+    vertical-align: -6px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-width: 375px;
+}
+
+.container h1 {
+    margin:40px 40px 20px 40px;
+}
+
+.container h2 {
+    font-size: 20px;
+}
+
+.container textarea {
+    display: none;
+    padding: 24px;
+    width: 70%;
+    height: 300px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    resize: none;
+    border: none;
+    border-radius: 15px;
+}
+
+
+.container textarea:nth-child(4) {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.container button {
+    font-size: 18px;
+    width: 150px;
+    height: 35px;
+    background-color: #ff3b3f;
+    color: white;
+    margin: 20px;
+    transition: background 0.4s;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container button:hover {
+    background-color:#E8452A;
+}
+
+.container button:nth-child(3) {
+    width: 50px;
+}
+
+.container button span i {
+    margin-left: 10px;
+}
+
+
+#materialModalContent {
+    min-width: 350px;
+    background: #f0f0f5;
+}
+
+#materialModalTitle {
+    font-size: 22px;
+}
+
+#materialModalContent {
+    font-size: 17px;
+    text-align: center;
+}
+
+#materialModalButtonOK {
+    background: #ff3b3f;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+}

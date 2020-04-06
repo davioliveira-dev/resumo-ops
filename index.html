@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/fechanique/material-modal/master/material-modal.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <title>Resumo? Ops!</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>Resumo? Ops!</h1>
+        <h2>Não se preocupe! A gente te ajuda  ;)</h2>
+
+        <button name="dark-mode" value="off" id="dark-mode-btn" onclick="darkMode()"><i class="material-icons">brightness_4</i></button>
+
+        <textarea name="texto" id="resumo" placeholder="Digite aqui seu texto!"></textarea>
+
+        <button class="mdc-button" type="submit" onclick="resumeText()">
+            <span class="mdc-button__label">Resumir!<i class="material-icons">label_important</i></span>
+        </button>
+
+        <textarea name="texto" id="resultado"></textarea>
+        
+    </div>
+
+
+    <script src="https://cdn.rawgit.com/fechanique/material-modal/master/material-modal.js"></script>
+    <script src="https://algorithmia.com/v1/clients/js/algorithmia-0.2.1.js" type="text/javascript"></script>
+    <script src="./assets/js/index.js"></script>
+    
+</body>
+</html>

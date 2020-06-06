@@ -1,68 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/fechanique/material-modal/master/material-modal.css">
-    <link rel="shortcut icon" type="image/png" href="./assets/images/icon.ico"/>
-    <link rel="stylesheet" href="./assets/css/styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.rawgit.com/fechanique/material-modal/master/material-modal.css"
+    />
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="./assets/images/icon.ico"
+    />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
     <title>Resumo? Ops! - Resumos Rápidos!</title>
-</head>
-<body>
-
+  </head>
+  <body>
     <div class="container">
-
-        <div class="header">
-
-            <div class="logo">
-                <img src="./assets/images/logo.svg" alt="Resumo? Ops!">
-            </div>
-
-            <div class="title">
-                <h1>Resumo? Ops!</h1>
-                <h2>Faça aqui seu resumo de forma simples e rápida, aproveite!</h2>
-                <h3>Desenvolvido com <i class="material-icons">favorite</i> por <a href="https://www.linkedin.com/in/davioliveira-dev/" target="_blank">Davi Oliveira</a>  ;)</h3>
-            </div>
-            
-            <div class="header-btn">
-                <button class="button" name="dark-mode" value="off" id="dark-mode-btn" onclick="darkMode()"><i class="material-icons">brightness_4</i></button>
-            </div>
-
+      <div class="header">
+        <div class="logo">
+          <img src="./assets/images/logo.svg" alt="Resumo? Ops!" />
         </div>
 
-        <div class="form">
-
-            <div class="loading-div hidden" id="loading-div">
-                <h1>Resumindo ...</h1>
-            </div>
-
-            <textarea name="text" id="text" placeholder="Digite e/ou cole aqui seu texto!" onkeyup="showClearButton(true)"></textarea>
-
-            <div class="form-btn">
-                <button class="button" onclick="resumeText()">
-                    <span class="button-label">Resumir<i class="material-icons">done</i></span>
-                </button>
-                <button class="button hidden" id="clear-btn" onclick="clearText()">
-                    <span class="button-label">Limpar<i class="material-icons">clear</i></span>
-                </button>
-            </div>
-            
-            <textarea name="resume" class="hidden" id="resume"></textarea>
-            
-            <div class="action-btn hidden" id="copy-btn">
-                <button class="button" type="submit" onclick="copyText()">
-                    <span class="button-label">Copiar<i class="material-icons">file_copy</i></span>
-                </button>
-            </div>
-
+        <div class="title">
+          <h1>Resumo? Ops!</h1>
+          <h2>Faça aqui seu resumo de forma simples e rápida, aproveite!</h2>
+          <h3>
+            Desenvolvido com <i class="material-icons">favorite</i> por
+            <a
+              href="https://www.linkedin.com/in/davioliveira-dev/"
+              target="_blank"
+              >Davi Oliveira</a
+            >
+            ;)
+          </h3>
         </div>
-        
+
+        <div class="header-btn">
+          <button
+            class="button"
+            name="dark-mode"
+            value="off"
+            id="dark-mode-btn"
+            onclick="darkMode()"
+          >
+            <i class="material-icons">brightness_4</i>
+          </button>
+        </div>
+      </div>
+
+      <div class="form">
+        <div class="loading-div hidden" id="loading-div">
+          <h1>Resumindo ...</h1>
+        </div>
+
+        <textarea
+          name="text"
+          id="text"
+          placeholder="Digite e/ou cole aqui seu texto!"
+          onkeyup="showClearButton(true)"
+        ></textarea>
+
+        <div class="form-btn">
+          <button class="button" onclick="resumeText()">
+            <span class="button-label"
+              >Resumir<i class="material-icons">done</i></span
+            >
+          </button>
+          <button class="button hidden" id="clear-btn" onclick="clearText()">
+            <span class="button-label"
+              >Limpar<i class="material-icons">clear</i></span
+            >
+          </button>
+        </div>
+
+        <textarea name="resume" class="hidden" id="resume"></textarea>
+
+        <div class="action-btn hidden" id="copy-btn">
+          <button class="button" type="submit" onclick="copyText()">
+            <span class="button-label"
+              >Copiar<i class="material-icons">file_copy</i></span
+            >
+          </button>
+        </div>
+      </div>
     </div>
 
     <script src="https://cdn.rawgit.com/fechanique/material-modal/master/material-modal.js"></script>
-    <script src="https://algorithmia.com/v1/clients/js/algorithmia-0.2.1.js" type="text/javascript"></script>
+    <script
+      src="https://algorithmia.com/v1/clients/js/algorithmia-0.2.1.js"
+      type="text/javascript"
+    ></script>
     <script src="./assets/js/index.js"></script>
-    
-</body>
+  </body>
 </html>

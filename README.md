@@ -1,27 +1,38 @@
-<center>
+<div align="center">
     <h1>Resumo? Ops!</h1>
     <img src="./assets/images/logo.svg" width="110" height="110">
-</center>
+</div>
 
 ## :beginner: Exemplos
 
-<b style="font-size:20px;">Demonstrando a home da aplicação:</b>
+<b style="font-size:22px;">Demonstrando a home da aplicação:</b>
 
 <h3 align="center">
   <img src="./assets/images/exemplo1.PNG">
 </h3>
 
-<b style="font-size:20px;">Demonstrando a aplicação funcionando:</b>
+<b style="font-size:22px;">Demonstrando a aplicação funcionando:</b>
 
 <h3 align="center">
   <img src="./assets/images/exemplo1.gif">
 </h3>
 
-<b style="font-size:20px;">Demonstrando a aplicação funcionando no mobile:</b>
+<b style="font-size:22px;">Demonstrando a aplicação funcionando no mobile:</b>
 
 <h3 align="center">
-  <img src="./assets/images/exemplo1.gif">
+  <img src="./assets/images/exemplo2.gif">
 </h3>
+
+<b style="font-size:22px;">Comparação do texto:</b>
+
+<b> Texto original: </b>
+Os vírus são seres diminutos, medindo cerca de 0,1µm de diâmetro, com dimensões apenas observáveis ao microscópio eletrônico. Basicamente são constituídos por ácido nucleico, que pode ser o DNA ou o RNA, envolvido por um invólucro proteico denominado capsídeo, que além de proteger o material genético, combina-se quimicamente com receptores membranares das células parasitadas.
+
+Esses seres são acelulares, não possuindo orgânulos que desempenham a complexa síntese bioquímica. Somente exprimem atividades vitais: reprodução e propagação, no interior de uma célula hospedeira. Portanto, são considerados parasitas intracelulares obrigatórios.
+
+<b> Texto resumido: </b>
+
+Os vírus são seres diminutos, medindo cerca de 0,1µm de diâmetro, com dimensões apenas observáveis ao microscópio eletrônico. Basicamente são constituídos por ácido nucleico, que pode ser o DNA ou o RNA, envolvido por um invólucro proteico denominado capsídeo, que além de proteger o material genético, combina-se quimicamente com receptores membranares das células parasitadas. Somente exprimem atividades vitais: reprodução e propagação, no interior de uma célula hospedeira.
 
 ---
 

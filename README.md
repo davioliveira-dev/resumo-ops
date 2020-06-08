@@ -1,6 +1,6 @@
 <div align="center">
     <h1>Resumo? Ops!</h1>
-    <img src="./assets/images/logo.svg" width="110" height="110">
+    <img src="./assets/images/logo.png" width="110" height="110">
 </div>
 
 ---

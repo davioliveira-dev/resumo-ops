@@ -3,6 +3,35 @@
     <img src="./assets/images/logo.svg" width="110" height="110">
 </div>
 
+---
+
+## :notebook: Sobre o projeto:
+
+Cansado de fazer resumos? Cansado de ter que ler aquele texto enorme daquele e-mail? Simples! Utilize nossa plataforma! A Inteligência Artificial irá resumir e pegar os pontos mais importantes do texto para você!
+
+Foi utilizada a API do Algorithmia, de onde veio a I.A!
+
+---
+
+## :book: O que aprendi ?
+
+1. Utilização da API do Algorithmia.
+2. Implementação de DarkMode com CSS e JS puro.
+3. Flex Layout.
+4. Material UI
+5. :muscle: e várias outras coisas!
+
+---
+
+## :hammer: Tecnologias utilizadas:
+
+- JS
+- HTML
+- CSS
+- JAVA (IA)
+
+---
+
 ## :beginner: Exemplos
 
 <b style="font-size:22px;">Demonstrando a home da aplicação:</b>
@@ -33,37 +62,6 @@ Esses seres são acelulares, não possuindo orgânulos que desempenham a complex
 <b> Texto resumido: </b>
 
 Os vírus são seres diminutos, medindo cerca de 0,1µm de diâmetro, com dimensões apenas observáveis ao microscópio eletrônico. Basicamente são constituídos por ácido nucleico, que pode ser o DNA ou o RNA, envolvido por um invólucro proteico denominado capsídeo, que além de proteger o material genético, combina-se quimicamente com receptores membranares das células parasitadas. Somente exprimem atividades vitais: reprodução e propagação, no interior de uma célula hospedeira.
-
----
-
-## :notebook: Sobre o projeto:
-
-Cansado de fazer resumos? Cansado de ter que ler aquele texto enorme daquele e-mail? Simples! Utilize nossa plataforma! A Inteligência Artificial irá resumir e pegar os pontos mais importantes do texto para você!
-
-Foi utilizada a API do Algorithmia, de onde veio a I.A!
-
----
-
-## :book: O que aprendi ?
-
-1. Utilização da API do Algorithmia.
-2. Inteligência Artificial com Java.
-3. Java.
-4. Implementação de DarkMode com CSS e JS puro.
-5. Flex Layout.
-6. Material UI
-7. :muscle: e várias outras coisas!
-
----
-
-## :hammer: Tecnologias utilizadas:
-
-- JS
-- HTML
-- CSS
-- JAVA (IA)
-
----
 
 ## :rocket: Como utilizar o projeto:
 

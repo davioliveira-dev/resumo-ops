@@ -32,7 +32,27 @@ Foi utilizada a API do Algorithmia, de onde veio a I.A!
 
 ---
 
-## :beginner: Exemplos
+## :rocket: Como utilizar o projeto:
+
+<b style="font-size:20px;">Pelo GitHub Pages:</b>
+
+Acesse o link abaixo:
+
+<a href="https://davioliveira-dev.github.io/resumo-ops/">`https://davioliveira-dev.github.io/resumo-ops/`</a>
+
+<b style="font-size:20px;">Baixando a realease do projeto:</b>
+
+No GitHub do projeto, clique na aba release e baixe o source code, e abra o arquivo <b>index.html</b>
+
+<b style="font-size:20px;">Clonando o projeto:</b>
+
+1. Com o git instalado, dê um git clone no projeto:
+   `git clone https://github.com/davioliveira-dev/resumo-ops/`
+2. Abra a pasta do projeto, e abra o arquivo <b>index.html</b>
+
+---
+
+## :beginner: Bônus! Exemplos:
 
 <b style="font-size:22px;">Demonstrando a home da aplicação:</b>
 
@@ -62,26 +82,6 @@ Esses seres são acelulares, não possuindo orgânulos que desempenham a complex
 <b> Texto resumido: </b>
 
 Os vírus são seres diminutos, medindo cerca de 0,1µm de diâmetro, com dimensões apenas observáveis ao microscópio eletrônico. Basicamente são constituídos por ácido nucleico, que pode ser o DNA ou o RNA, envolvido por um invólucro proteico denominado capsídeo, que além de proteger o material genético, combina-se quimicamente com receptores membranares das células parasitadas. Somente exprimem atividades vitais: reprodução e propagação, no interior de uma célula hospedeira.
-
-## :rocket: Como utilizar o projeto:
-
-<b style="font-size:20px;">Pelo GitHub Pages:</b>
-
-Acesse o link abaixo:
-
-<a href="https://davioliveira-dev.github.io/resumo-ops/">`https://davioliveira-dev.github.io/resumo-ops/`</a>
-
-<b style="font-size:20px;">Baixando a realease do projeto:</b>
-
-No GitHub do projeto, clique na aba release e baixe o source code, e abra o arquivo <b>index.html</b>
-
-<b style="font-size:20px;">Clonando o projeto:</b>
-
-1. Com o git instalado, dê um git clone no projeto:
-   `git clone https://github.com/davioliveira-dev/resumo-ops/`
-2. Abra a pasta do projeto, e abra o arquivo <b>index.html</b>
-
----
 
 ## :blue_book: Contribuindo
 

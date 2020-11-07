@@ -3,7 +3,7 @@ const resume = document.getElementById('resume');
 const clearButton = document.getElementById('clear-btn');
 const copyButton = document.getElementById('copy-btn');
 const loadingDiv = document.getElementById('loading-div');
-var apiKey = config.API_KEY;
+const API_KEY = 'sim1yuhC9YvgFoljQ18M5QtoDio1';
 
 window.onload = () => {
   const title = 'Uma ajudinha pra você!';
@@ -36,10 +36,8 @@ function resumeText() {
   }
 
   showLoading(true);
-
-  //Public API
-
-  Algorithmia.client(apiKey)
+  
+  Algorithmia.client(API_KEY)
     .algo('nlp/Summarizer/0.1.8')
     .pipe(textarea.value)
     .then(function (output) {
